@@ -1,0 +1,87 @@
+form {
+  width: 500px;
+  max-width: 100%;
+  margin: 30px auto;
+  padding: 25px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  font-family: Arial, sans-serif;
+  background-color: #fff;
+  box-sizing: border-box;
+}
+
+label {
+  display: block;
+  margin-top: 15px;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input:not([type="radio"]):not([type="checkbox"]),
+select,
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  font-family: inherit;
+  font-size: 14px;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+  outline: none;
+  border-color: #ff7900;
+  box-shadow: 0 0 0 2px rgba(255, 121, 0, 0.15);
+}
+
+textarea {
+  resize: vertical;
+}
+
+.inline {
+  display: inline-block;
+  width: auto;
+  margin: 8px 15px 5px 0;
+  font-weight: normal;
+}
+
+.inline input {
+  width: auto;
+  margin-right: 5px;
+}
+
+.terms {
+  display: block;
+  margin-top: 15px;
+}
+
+.error {
+  display: block;
+  color: #d93025;
+  font-size: 13px;
+  margin-top: 5px;
+}
+
+button {
+  margin-top: 20px;
+  padding: 10px 25px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #ff7900;
+  color: white;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #e66d00;
+}
+
+@media (max-width: 550px) {
+  form {
+    padding: 18px;
+  }
+}
